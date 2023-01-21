@@ -1,0 +1,20 @@
+func start() {
+    str input = in("Enter something: ");
+    int i = 0;
+    double d = 1.2;
+    while(i < 10) {
+        out("hi" + input);
+        i = i - 1;
+    }
+    /*
+        This is a comment.
+    */
+    if (d == add(0.6, 0.6) || d == add(0.6, 0.6)) {
+        out("hi!");
+    } else {
+        out("bye");
+    }
+}
+func double add(double n1, double n2) {
+    return n1 + n2;
+}
